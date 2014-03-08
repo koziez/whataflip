@@ -1,0 +1,69 @@
+.shaded{
+	background-color:rgba(0,0,0,0.7);
+	padding:0 14px;
+}
+
+.curved{
+	-webkit-border-radius: 7px;
+	border-radius:7px;
+	background-clip: padding-box;
+	overflow:hidden;
+}
+
+.shadowed{
+	-webkit-box-shadow: -4px 4px 4px 0px #000;
+	box-shadow: -4px 4px 4px 0px #000;
+}
+
+html{
+	background: url(../img/bohol.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+  
+body{
+	background-color:transparent;
+	color:#fff;
+	text-shadow: -4px 4px 4px #1a1a1a;
+}
+
+#topbar{
+	background-color:transparent;
+	min-height:1.6em;
+	height:1.6em;
+	margin:0;
+}
+
+#topbar > a{
+	color:#fff;
+}
+
+#content{
+	border-bottom:1px solid #fff;
+}
+
+#maincontent{
+	padding-right:14px;
+}
+
+.lead{
+	color:#fff;
+}
+	
+.article{
+	margin-bottom:25px;
+}
+
+.article p, .article h1, .article h2, .article h3, .article h4, .article h5, .article h6{
+	color:#fff;
+}
+
+a{
+	color:#00D9F7;
+}
+
+a:hover, a:focus, span.active{
+	color:#0BA2E0;
+}
